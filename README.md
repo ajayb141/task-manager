@@ -1,10 +1,10 @@
-# task-manager
+# Task Manager
 
 Don't forget to do this...
 
-# In terminal:
+### In Terminal:
 
-
+```bash
 from app import db, app
 with app.app_context():
      db.create_all()
